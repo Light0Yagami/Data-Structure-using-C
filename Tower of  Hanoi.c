@@ -1,8 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-void towerofhanoi(int n, char source, char dest, char spare)
-{
+#include <stdlib.hT
     if(n==1){
         printf("\nMove from %c to %c",source,dest);
     }
